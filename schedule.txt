@@ -1,0 +1,15 @@
+Best Schedule  (fitness = 12.0000)
+
+Activity     Room           Time     Facilitator
+-------------------------------------------------------
+SLA291       Loft 206       10 AM    Lock
+SLA304       Beach 301      10 AM    Singer
+SLA201       Roman 216      10 AM    Zeldin
+SLA191A      Loft 206       11 AM    Banks
+SLA101A      Loft 206       12 PM    Lock
+SLA449       Slater 003     12 PM    Zeldin
+SLA394       Beach 201      1 PM     Singer
+SLA191B      Loft 206       1 PM     Banks
+SLA101B      Loft 310       2 PM     Lock
+SLA303       Beach 301      3 PM     Banks
+SLA451       James 325      3 PM     Zeldin
