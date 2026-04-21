@@ -14,6 +14,7 @@ ROOMS = {
     "Roman 216":  80,
     "Slater 003": 32,
 }
+
 ROOM_NAMES = list(ROOMS.keys())
 ROOM_CAPS  = [ROOMS[r] for r in ROOM_NAMES]
 
@@ -22,17 +23,17 @@ FACILITATORS = ["Lock", "Glen", "Banks", "Richards", "Shaw",
 
 # Each activity: (name, enrollment, preferred, other)
 ACTIVITIES = [
-    ("SLA101A", 40, ["Glen","Lock","Banks"],           ["Numen","Richards","Shaw","Singer"]),
-    ("SLA101B", 35, ["Glen","Lock","Banks"],           ["Numen","Richards","Shaw","Singer"]),
-    ("SLA191A", 45, ["Glen","Lock","Banks"],           ["Numen","Richards","Shaw","Singer"]),
-    ("SLA191B", 40, ["Glen","Lock","Banks"],           ["Numen","Richards","Shaw","Singer"]),
+    ("SLA101A", 40, ["Glen","Lock","Banks"], ["Numen","Richards","Shaw","Singer"]),
+    ("SLA101B", 35, ["Glen","Lock","Banks"], ["Numen","Richards","Shaw","Singer"]),
+    ("SLA191A", 45, ["Glen","Lock","Banks"], ["Numen","Richards","Shaw","Singer"]),
+    ("SLA191B", 40, ["Glen","Lock","Banks"], ["Numen","Richards","Shaw","Singer"]),
     ("SLA201",  60, ["Glen","Banks","Zeldin","Lock","Singer"], ["Richards","Uther","Shaw"]),
     ("SLA291",  50, ["Glen","Banks","Zeldin","Lock","Singer"], ["Richards","Uther","Shaw"]),
-    ("SLA303",  25, ["Glen","Zeldin"],                 ["Banks"]),
-    ("SLA304",  20, ["Singer","Uther"],                ["Richards"]),
-    ("SLA394",  15, ["Tyler","Singer"],                ["Richards","Zeldin"]),
-    ("SLA449",  30, ["Tyler","Zeldin","Uther"],        ["Zeldin","Shaw"]),
-    ("SLA451",  90, ["Lock","Banks","Zeldin"],         ["Tyler","Singer","Shaw","Glen"]),
+    ("SLA303",  25, ["Glen","Zeldin"], ["Banks"]),
+    ("SLA304",  20, ["Singer","Uther"], ["Richards"]),
+    ("SLA394",  15, ["Tyler","Singer"], ["Richards","Zeldin"]),
+    ("SLA449",  30, ["Tyler","Zeldin","Uther"], ["Zeldin","Shaw"]),
+    ("SLA451",  90, ["Lock","Banks","Zeldin"], ["Tyler","Singer","Shaw","Glen"]),
 ]
 
 ACT_NAMES     = [a[0] for a in ACTIVITIES]
